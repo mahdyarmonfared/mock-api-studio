@@ -1,0 +1,29 @@
+{
+  "name": "mock-api-studio",
+  "version": "1.0.0",
+  "description": "Zero-dependency instant REST API mock server, schema manager & Web Studio for frontend developers.",
+  "main": "src/core/index.js",
+  "bin": {
+    "mock-api-studio": "bin/mock-api-studio.js"
+  },
+  "scripts": {
+    "start": "node bin/mock-api-studio.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "mock-api",
+    "rest-api",
+    "developer-tools",
+    "fake-data",
+    "crud",
+    "frontend-tools",
+    "zero-dependency",
+    "cli",
+    "web-studio"
+  ],
+  "author": "Mahdyar Monfared",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
